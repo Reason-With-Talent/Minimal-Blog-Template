@@ -425,16 +425,17 @@
 
     .sub-two {
         display: grid;
-        margin-left: 12px;
-        margin-right: 12px;
+        margin-left: 10px;
+        margin-right: 10px;
         background-color: #FFFFFF;
         border-radius: 10px;
-        /* width: 100%; */
+        width: initial;
     }
 
     .sub-div {
         padding-left: 10px;
         margin-top: 10px;
+
     }
 
 
@@ -449,6 +450,7 @@
         font-size: 15px;
         font-weight: 700;
         margin-top: 10px;
+        padding-bottom: 15px;
     }
 
     .sub-div p {
@@ -456,11 +458,11 @@
     }
 
     .sub-div-one {
-        padding-left: 10px;
+        margin-bottom: 10px;
     }
 
     .sub-div-one img {
-        width: 230px;
+        width: 100%;
     }
 
     .blog-main-three {
